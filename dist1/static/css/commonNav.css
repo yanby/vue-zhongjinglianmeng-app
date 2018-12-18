@@ -1,0 +1,240 @@
+/* 头部 导航*/
+.navTop{
+    width: 7.5rem;
+    height: 1rem;
+    /*background: #3c915c;*/
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background: url(../images/common/navBg.png);
+    background-repeat: no-repeat;
+    background-size: 7.5rem 1rem ;
+}
+.navTop1{
+    width: 7.5rem;
+    height: 1rem;
+    background: #3c915c;
+    z-index: 10000;
+}
+.backWhite{
+    width: .3rem;
+    height: .3rem;
+    position: absolute;
+    left: .3rem;
+    top: .35rem;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* 导航收藏按钮 */
+.collectIcon{
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    right: .3rem;
+    top: .3rem;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.navTopH2{
+    color: #fff;
+    font-size: .34rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.navTopH5{
+    color: #fff;
+    font-size: .28rem;
+    position: absolute;
+    right: .2rem;
+    top: .32rem;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* 底部按钮 */
+.submitBtn{
+    width: 7.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    font-size: .34rem;
+    background: #3c915c;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* ios默认底部阴影 */
+.iosDefaultShadow{
+    /*光标颜色*/
+    /*caret-color: #eaeaea;*/ 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* input 输入框 */
+input{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input::-webkit-input-placeholder{
+    color: #898989;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color: #898989;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color: #898989;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color: #898989;
+}
+input{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* 弹窗处理 */
+.promptWrap{
+    width: 7.5rem;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999999999999;
+    position: fixed;
+    top: 0;
+}
+.promptBox{
+    width: 6.4rem;
+    height: 3.8rem;
+    background: #fff;
+    position: fixed;
+    top: 4rem;
+    left: 0px;
+    right: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 6px;
+    padding-top: .4rem;
+}
+.promptWrap .promptBox{
+    width: 6.4rem;
+    height: 2.8rem;
+    background: #fff;
+    position: fixed;
+    top: 4rem;
+    left: 0px;
+    right: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 6px;
+    padding-top: .4rem;
+}
+.promptWrap .promptBox h3{
+    color: #000;
+    font-size: .34rem;
+    font-weight: 600;
+    text-align: center;
+}
+.promptWrap .promptBox h5{
+    width: 4.48rem;
+    margin: .3rem auto;
+    color: #000;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .6rem;
+}
+.promptWrap .promptBox p{
+    width: 4.48rem;
+    margin: .3rem auto;
+    color: #666;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .4rem;
+}
+.promptWrap li{
+    width: 2.6rem;
+    font-size: .3rem;
+    line-height: .7rem;
+    float: left;
+    color: #3c915c;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 1px solid #3c915c;
+    border-radius: 6px;
+}
+.promptWrap .li1{
+    margin-left: .4rem;
+    margin-right: .4rem;
+    position: absolute;
+    bottom: .3rem;
+}
+.promptWrap .li2{
+    background: #3c915c;
+    color: #fff;
+    position: absolute;
+    bottom: .3rem;
+    right: .4rem;
+}
+
+/* 微信弹窗处理 */
+.promptWrap1{
+    width: 7.5rem;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999999999999;
+    position: fixed;
+    top: 0;
+}
+.promptWrap1 .payPromptBox{
+    width: 6.4rem;
+    height: 3.8rem;
+    background: #fff;
+    position: fixed;
+    top: 4rem;
+    left: 0px;
+    right: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 6px;
+    padding-top: .4rem;
+}
+.promptWrap1 .payPromptBox h3{
+    color: #000;
+    font-size: .34rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.promptWrap1 .payPromptBox h5{
+    width: 5.6rem;
+    margin: .3rem auto;
+    color: #000;
+    font-size: .3rem;
+    line-height: .3rem;
+}
+.promptWrap1 .payPromptBox p{
+    width: 4.48rem;
+    margin: .3rem auto;
+    color: #666;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .4rem;
+}
+.promptWrap1 li{
+    width: 2.6rem;
+    font-size: .3rem;
+    line-height: .7rem;
+    float: left;
+    color: #3c915c;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 1px solid #3c915c;
+    border-radius: 6px;
+}
+.promptWrap1 .li1{
+    margin-left: .4rem;
+    margin-right: .4rem;
+    position: absolute;
+    bottom: .3rem;
+}
+.promptWrap1 .li2{
+    background: #3c915c;
+    color: #fff;
+    position: absolute;
+    bottom: .3rem;
+    right: .4rem;
+}

@@ -1,0 +1,27 @@
+.nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 7.5rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: .34rem;
+  background: url("../../../static/images/mine/nav-bg.png") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  z-index: 999;
+  span{
+    position: absolute;
+    left: .3rem;
+    top: .3rem;
+    width: .34rem;
+    height: .34rem;
+    background: url("../../../static/images/common/backWhite.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+}
+
+
